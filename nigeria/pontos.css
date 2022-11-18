@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(232, 232, 238, 0.801);
+}
+
+.nav{
+    padding-top: 2rem;
+    padding-bottom: 2.3rem;
+    list-style: none;
+    background-color: rgb(23, 104, 73);
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav li{
+    display: inline; 
+}
+
+.nav li a{
+    margin-top: 1.25rem;
+    color: white;
+    text-decoration: none;
+    padding: 2.9rem;  
+    font-size: 1.25rem;
+    margin-left: 4.37rem;
+}
+.nav li a:hover{
+     background-color: rgba(60, 204, 96, 0.603);
+     padding-top: 0.75rem;
+     padding-bottom: 0.75rem;
+     border-radius: 3.12rem;
+}
+
+
+.logo{
+    position: absolute;
+    top: 2.6%;
+    left: 1%;
+}
+
+.passeio img{
+    width: 17.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.passeio img:hover{
+    transform:scale(1.1);
+}
+
+.passeio a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.news-list{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+    margin-left: 13rem;
+    margin-right: 3.43rem;
+    margin-bottom: 1.25rem;
+}
+
+h1{
+    margin-left: 13rem;
+    margin-top: 3rem;
+}
+
+hr{
+    margin-left: 5rem ;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.pontos{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    text-align: justify;
+    margin-right: 5rem;
+}
+
+.pontos h2{
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
